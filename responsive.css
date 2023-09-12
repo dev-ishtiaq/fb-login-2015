@@ -1,0 +1,101 @@
+@media all and (max-width: 768px) {
+	.signup-area .left-area {
+		float: none;
+		width: 100%;
+	}
+	.signup-area .right-area {
+		width: 100%;
+	}
+	
+	
+	.footer-bottom ul {
+		width: 100%;
+	}
+	.footer-bottom ul li {
+		width: 15%;
+	}
+	
+	.footer-top ul li {
+		margin-right: 20px;
+		float: none;
+		display: inline;
+	}
+	
+}
+
+
+
+@media all and (max-width: 600px){
+	.header-area .logo-area {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.login-area form {
+		float: none;
+		width: 375px;
+		margin: auto;
+	}
+	.header-area .login-area {
+		width: 100%;
+	}
+	
+	.footer-bottom ul li {
+		width: 20%;
+	}
+	
+	.footer-top ul li {
+		margin: 0;
+		width: 20%;
+		margin-bottom: 10px;
+	}
+	.footer-top ul li a {
+		display: block;
+	}
+}
+
+
+
+
+@media all and (max-width: 390px) {
+	.login-area form {
+		width: 100%;
+	}
+	.username-area {
+		float: none;
+		margin-right: 0;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.password-area {
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.username-area input[type="text"],
+	.password-area input[type="password"] {
+		width: 100%;
+		font-size: 18px;
+		padding: 5px;
+	}
+	.header-area {
+		font-size: 16px;
+	}
+	
+	.mobile-area {
+		display: none;
+	}
+	
+	.footer-bottom ul li {
+		width: 25%;
+	}
+	
+	.footer-top ul li {
+		margin: 0;
+		width: 25%;
+		margin-bottom: 10px;
+	}
+	
+}
+
